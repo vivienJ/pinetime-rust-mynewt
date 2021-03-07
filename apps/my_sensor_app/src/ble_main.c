@@ -94,7 +94,7 @@ static void blecent_on_disc_complete(const struct blepeer *peer, int status, voi
     }
 
     //  GATT Service Discovery has completed successfully.  Now we have a complete list of services, characteristics, and descriptors that the peer supports.
-    MODLOG_DFLT_INFO("Service discovery complete; status=%d conn_handle=%d\n", status, peer->conn_handle);
+    MODLOG_DFLT_INFO("Service discoveryr complete; status=%d conn_handle=%d\n", status, peer->conn_handle);
 
     //  Read the GATT Characteristics from the peer
     blecent_read(peer);
