@@ -30,7 +30,7 @@
 #include <console/console.h>
 #include <sysflash/sysflash.h>
 
-/// Vector Table will be relocated here.
+/// Vector Table will be relocated here.test
 #define RELOCATED_VECTOR_TABLE 0x7F00
 
 /// Number of entries in the Vector Table.
