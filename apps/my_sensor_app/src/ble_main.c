@@ -115,7 +115,7 @@ static void blecent_read(const struct blepeer *peer) {
         BLE_UUID16_DECLARE(BLE_GATT_CHR_CUR_TIME)  //  GATT Characteristic for Current Time Service
     );
     if (chr == NULL) {
-        MODLOG_DFLT_ERROR("Error: Peer doesn't support CTS\n");
+        MODLOG_DFLT_ERROR("Error: PTESTeer doesn't support CTS\n");
         goto err;
     }
 
